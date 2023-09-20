@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
     await _banubaSdkManager.initialize([],
-        <#"Place Token here"#>,
+        "faC6jEwTaObUFvHvH/WvyDRKfl6KoEI4M7W1GH3HmBnIrkvZ5UFkfyXBArfdDPJ+ruILLhDjOrIbQji4RQLoFqZ6zIvTZOOVAcdrM/qGgzdNiv1jLHq12mexlUOOm7mxDBeuccYFsN5AggiYDzhEQAD42AxMTvFOvMP+3tmO8h9yOzUbFjK4AlOFL0jWE703NrxoOfEs5oDafNm/gnPOZVYpL1D8Qb7uWRnWyi3S+h+7HPxrjYn8P8BTtoxZp2Pp2Hs/r+Id2/7WwqUx4N3+g75l5B1UwBsQv73urcNXlx4AeW+3p5opSq9L4TGg0+ZrRBvzffK5uUkZyaDTNmyca7Bxn4Xq9RAcNUtdijPckDB9Z1kGxCTsnEtYif1xEk0tEfAfowi5yzbo7N2XajwXILQu8/PoWJ3nRxZ4o59cfcl41AYWiUae07/ufUxnGtPJKFbArbVAGuHmMpNm0Q4oxYn3skld5smlyGtEI+M88Eq55ldrV3XreiUyyuUMtVMXCHYJAYd371r/WqrZ3zrEJuHFXR9pLUVBPpdJ",
         SeverityLevel.info);
 
     // If the widget was removed from the tree while the asynchronous platform
